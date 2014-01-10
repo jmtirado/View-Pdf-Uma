@@ -16,7 +16,9 @@ Script que te permitira ver los pdfs del campus virtual en dispositivos iOS de A
 
 * Copiamos el siguiente código:
 
-	javascript:(function(){var%20d=window.open('about:blank'),a=d.document;a.write('<!DOCTYPE%20html><html><head><title>Loading%20Source</title></head><body></body></html>');a.close();var%20b=a.body.appendChild(a.createElement('form'));b.setAttribute('method','post');b.setAttribute('action','http://www.duma.net76.net/download_uma.php?uri='+location.href);var%20c=b.appendChild(a.createElement('input'));c.setAttribute('type','hidden');c.setAttribute('name','DOM');c.setAttribute('value',encodeURIComponent(document.documentElement.innerHTML));b.submit()})()
+```
+javascript:(function(){var%20d=window.open('about:blank'),a=d.document;a.write('<!DOCTYPE%20html><html><head><title>Loading%20Source</title></head><body></body></html>');a.close();var%20b=a.body.appendChild(a.createElement('form'));b.setAttribute('method','post');b.setAttribute('action','http://www.duma.net76.net/download_uma.php?uri='+location.href);var%20c=b.appendChild(a.createElement('input'));c.setAttribute('type','hidden');c.setAttribute('name','DOM');c.setAttribute('value',encodeURIComponent(document.documentElement.innerHTML));b.submit()})()
+```
 
 * Abrimos el safari -> Favoritos -> Editar y seleccionamos el anteriormente creado.
 
